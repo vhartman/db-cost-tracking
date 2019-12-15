@@ -64,6 +64,8 @@ def disp_connection(ax, con):
             t_seg.append(t[i+1])
             l_seg.append(l[i+1])
 
+        ax.plot(t_seg, l_seg, color=colors[k])
+
         #ax.plot(t, l, label=name)
         #ax.scatter(t, l, marker=m, label=name, s=4)
 
